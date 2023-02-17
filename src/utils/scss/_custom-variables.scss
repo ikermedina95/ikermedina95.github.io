@@ -1,0 +1,61 @@
+/*
+ * Custom own variables.
+ *
+ */
+$font-OpenSans: 'Open Sans', sans-serif;
+$font-Titilium: 'Titillium Web', sans-serif;
+
+/*
+ * Override Variables.
+ *
+ */
+
+
+// Colors
+$blue:       #234264;
+$white:      #f2f2f2;
+$orange:     #DD6C49;
+$gray-100:   #DBDEE1;
+$black:      #020202;
+
+$navbar-light-color:  $blue;
+$navbar-dark-color:   $blue;
+
+$navbar-padding-y:  2.5rem;
+$navbar-brand-font-size: 2.3rem;
+
+// Fonts
+$font-family-base: $font-OpenSans;
+
+$font-size-base:              1.8rem;
+$h1-font-size:                6rem;
+$h2-font-size:                5rem;
+$h3-font-size:                3rem;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                2.2rem;
+$headings-font-family:        $font-OpenSans;
+$headings-font-weight:        700;
+$headings-color:              $blue;
+
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+// scss-docs-start spacer-variables-maps
+$spacer: 0.8rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 1,
+  2: $spacer * 2,
+  3: $spacer * 3,
+  4: $spacer * 4,
+  5: $spacer * 5,
+  6: $spacer * 6,
+  10: $spacer * 10,
+);
+
+// Default Bootstrap Variables.
+@import "~bootstrap/scss/bootstrap";
+

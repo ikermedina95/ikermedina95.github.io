@@ -1,0 +1,87 @@
+{
+  "content": [
+    {
+      "id": 0,
+      "component": "Banner",
+      "componentContent": [
+        {
+          "id": 0,
+          "component": "Video",
+          "componentContent": [
+            {
+              "id": 0,
+              "videoURL": "../../assets/video/banner.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "component": "Title",
+      "componentContent": [
+        {
+          "id": 0,
+          "text": "My Title"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "component": "Two-columns",
+      "componentContent": [
+        {
+          "id": 0,
+          "component": "left-column",
+          "componentContent": [
+            {
+              "id": 0,
+              "component": "Text",
+              "componentContent": [
+                {
+                  "id": 0,
+                  "text": "Nuestro misión,\nCompromiso \nContigo y \nEl medio ambiente"
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "component": "Button",
+              "componentContent": [
+                {
+                  "id": 0,
+                  "buttonStyle": "primary",
+                  "buttonText": "Contacto",
+                  "buttonLink": "#contacto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "component": "right-column",
+          "componentContent": [
+            {
+              "id": 0,
+              "component": "Modal",
+              "componentContent": [
+                {
+                  "id": 0,
+                  "component": "Video",
+                  "componentContent": [
+                    {
+                      "id": 0,
+                      "videoURL": "../../assets/video/banner.mp4.mp4",
+                      "imageURL": "../../assets/video/banner.mp4.mp4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,21 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route }  from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import "./utils/scss/base.scss";
+import Header from './layout/header/header';
+import Home from './pages/home';
+import Page404 from './pages/page-404';
+import Information from './components/Information/information';
+import Footer from './layout/footer/footer';
+import { faCirclePlay, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+
+library.add(faPhone, faInstagram, faWhatsapp, faCirclePlay);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          CIRAT is comming...
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="*" element={<Page404 />} />
+      </Routes>
+      <Information id="contacto"/>
+      <Footer />
+    </Router>
   );
 }
 

@@ -1,0 +1,25 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.49 249.13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #CB2E2E;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1"
+    d="M188.89,139V46.41S190,29.93,169.41,26.92H62.24s-18.11,0-19.49,19.49V216.9s0,18.32,19.49,19.49h85.24"
+    transform="translate(-38.75 -3.44)" />
+  <path class="cls-1" d="M208.38,139V23.3S204.72,8.09,188.88,7.46H81.72S66.9,6.06,62.23,23.3"
+    transform="translate(-38.75 -3.44)" />
+  <line class="cls-1" x1="38.1" y1="120.91" x2="116.04" y2="120.91" />
+  <line class="cls-1" x1="38.1" y1="91.68" x2="116.04" y2="91.68" />
+  <line class="cls-1" x1="38.1" y1="62.46" x2="116.04" y2="62.46" />
+  <path class="cls-1"
+    d="M174.28,248.56l-17.42-7.83s-21.55-9.32-21.55-33.32V173.06c0-14,14.61-14.61,14.61-14.61h48.71s14.62.62,14.62,14.61v34.35c0,24-21.56,33.32-21.56,33.32l-17.41,7.83"
+    transform="translate(-38.75 -3.44)"/>
+  <polyline class="cls-1" points="119.69 197.62 131.87 207.37 151.35 190.32" />
+</svg>

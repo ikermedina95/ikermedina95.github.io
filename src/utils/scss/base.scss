@@ -1,0 +1,47 @@
+/*
+ * General SCSS.s
+ *
+ */
+
+@import "./fonts";
+@import "./custom-variables";
+
+:root {
+  --blue: #{$blue};
+  --orange: #{$orange};
+  --white: #{$white};
+  --fontOpenSans: #{$font-OpenSans};
+  --fontTitilium: #{$font-Titilium};
+}
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1.8rem;
+  }
+}
+
+.font-titiliumWeb {
+  font-family: $font-Titilium;
+}
+
+@import "../../components/banner/banner.scss";
+@import "../../components/base/title/title.scss";
+@import "../../components/base/buttons/button/button";
+@import "../../components/video/video";
+@import "../../components/menu/main--menu.scss";
+@import "../../layout/header/header.scss";
+@import "../../components/columns/two-columns/two-columns";
+@import "../../components/columns/three-columns/three-columns";
+@import "../../components/Information/information";
+@import "../../layout/footer/footer";

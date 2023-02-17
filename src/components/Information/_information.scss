@@ -1,0 +1,42 @@
+/*
+ * Information Styles.
+ *
+ */
+
+
+.button-icon-wrapper {
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .btn {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin: 0;
+    }
+  }
+}
+
+.information {
+  @include media-breakpoint-up(lg) {
+    margin-top: 8rem;
+  }
+}
+
+.custom-h2 {
+  @include media-breakpoint-up(lg) {
+    margin: 8rem 0!important;
+  }
+}

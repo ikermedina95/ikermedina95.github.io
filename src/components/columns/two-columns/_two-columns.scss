@@ -1,0 +1,45 @@
+.box {
+  height: 100%;
+
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+    height: 50rem;
+  }
+
+  .h3 {
+    margin: 0;
+    line-height: 1.5;
+
+    @include media-breakpoint-up(lg) {
+      letter-spacing: -0.1rem;
+      line-height: 5.5rem;
+    }
+  }
+
+  br {
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
+  }
+
+  .custom-transform {
+    text-transform: lowercase;
+
+    @include media-breakpoint-up(lg) {
+      text-transform: none;
+    }
+  }
+}
+
+.half-2 {
+  img,
+  video {
+    @include media-breakpoint-up(lg) {
+      height: 50rem!important; //To avoid react video.
+      object-fit: cover;
+    }
+  }
+}

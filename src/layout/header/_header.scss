@@ -1,0 +1,77 @@
+/*
+ * Header & Navbar styles.
+ *
+ */
+
+nav.navbar {
+  height: 10rem;
+  width: 100%;
+  padding: 1rem 0;
+  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.25);
+  transition: transform 0.5s ease;
+  z-index: 9999;
+  position: relative;
+
+  &.initial {
+    position: relative;
+  }
+
+  &.show,
+  &.hide {
+    position: fixed;
+    top: 0;
+  }
+
+  &.show {
+    transform: translate(0);
+  }
+
+  &.hide {
+    transform: translateY(-200%);
+  }
+
+  @include media-breakpoint-down(lg) {
+
+    .navbar-collapse {
+      display: block;
+      overflow: hidden;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      width: 100%;
+      height: 0!important;
+      background-color: rgba(0, 0, 0, 0.6);
+      transform: translate(0);
+      transition: height 0.3s ease;
+  
+      .main--menu {
+        background-color: $white;
+        padding: 4vh 0.75rem;
+        gap: 4vh;
+        transition: height 0.6s ease;
+      }
+  
+      &.show {
+        height: calc(100vh - 10rem)!important;
+      }
+    }
+  }
+
+  .container {
+    display: block;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+} 
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler-icon {
+  width: 3rem;
+  height: 3rem;
+}

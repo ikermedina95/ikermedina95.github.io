@@ -1,0 +1,23 @@
+/*
+ * Styles for elements inside Three Columns component.
+ *
+ */
+
+.custom-list {
+  width: 32rem;
+  margin: 1.2rem auto 2.8rem;
+
+  @include media-breakpoint-up(lg) {
+    margin: 2.4rem auto 0;
+  }
+
+  > p {
+    margin-bottom: 2rem;
+  }
+
+  li {
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-family: $font-OpenSans;
+  }
+}
