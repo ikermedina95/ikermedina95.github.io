@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d7efcfeb.css",
-    "main.js": "/static/js/main.e211689f.js",
+    "main.js": "/static/js/main.4d85bdc0.js",
     "static/js/787.092ac39d.chunk.js": "/static/js/787.092ac39d.chunk.js",
     "static/media/banner.mp4": "/static/media/banner.db5940b11b7ab062e50c.mp4",
     "static/media/cirat-trash.png": "/static/media/cirat-trash.86604c7dee5eda821d78.png",
@@ -15,11 +15,11 @@
     "static/media/circle-1.svg": "/static/media/circle-1.a8e935d493c9910c63041452ee9e6eab.svg",
     "static/media/circle-3.svg": "/static/media/circle-3.8a4dfa4b4bbfb2f1f48973acca6c2ec9.svg",
     "main.d7efcfeb.css.map": "/static/css/main.d7efcfeb.css.map",
-    "main.e211689f.js.map": "/static/js/main.e211689f.js.map",
+    "main.4d85bdc0.js.map": "/static/js/main.4d85bdc0.js.map",
     "787.092ac39d.chunk.js.map": "/static/js/787.092ac39d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7efcfeb.css",
-    "static/js/main.e211689f.js"
+    "static/js/main.4d85bdc0.js"
   ]
 }
