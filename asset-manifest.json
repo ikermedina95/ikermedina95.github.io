@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.bf18521b.js",
+    "main.css": "/static/css/main.4dbfccc3.css",
+    "main.js": "/static/js/main.f524847b.js",
     "static/js/787.092ac39d.chunk.js": "/static/js/787.092ac39d.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/banner.mp4": "/static/media/banner.db5940b11b7ab062e50c.mp4",
+    "static/media/cirat-trash.png": "/static/media/cirat-trash.86604c7dee5eda821d78.png",
+    "static/media/logo.svg": "/static/media/logo.8595251dc71b030c9bf3a5e5535a5d74.svg",
+    "static/media/certificate.svg": "/static/media/certificate.155e28fb38e82cb338af30b1eea25a38.svg",
+    "static/media/truck.svg": "/static/media/truck.69ecaf831f98997d05454db59e8ac491.svg",
+    "static/media/logo-rpbi.svg": "/static/media/logo-rpbi.59015352b8e003f8488c17d807b42233.svg",
+    "static/media/circle-2.svg": "/static/media/circle-2.ff6271574fe35579298415526fbb20c6.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.bf18521b.js.map": "/static/js/main.bf18521b.js.map",
+    "static/media/document.svg": "/static/media/document.9af8403cdc1ab07ba1031631cdc11a44.svg",
+    "static/media/circle-1.svg": "/static/media/circle-1.a8e935d493c9910c63041452ee9e6eab.svg",
+    "static/media/circle-3.svg": "/static/media/circle-3.8a4dfa4b4bbfb2f1f48973acca6c2ec9.svg",
+    "main.4dbfccc3.css.map": "/static/css/main.4dbfccc3.css.map",
+    "main.f524847b.js.map": "/static/js/main.f524847b.js.map",
     "787.092ac39d.chunk.js.map": "/static/js/787.092ac39d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bf18521b.js"
+    "static/css/main.4dbfccc3.css",
+    "static/js/main.f524847b.js"
   ]
 }
