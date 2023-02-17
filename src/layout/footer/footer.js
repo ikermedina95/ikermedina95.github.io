@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-primary text-white py-4 pb-6">
@@ -12,7 +13,7 @@ const Footer = () => {
             <p className="mb-3 mb-lg-5">Encuéntranos en <a href='/#'>Maps!</a></p>
           </div>
           <div className="col-12 col-lg-4 offset-1 d-lg-flex justify-content-lg-start footer-col-2">
-            <a href='/#a' className="footer-menu mb-3 mb-lg-5">Aviso de Privacidad</a>
+            <Link to='/aviso-de-privacidad' className="footer-menu mb-3 mb-lg-5">Aviso de Privacidad</Link>
             <a href='/#b' className="footer-menu mb-3 mb-lg-10">Términos y Condiciones</a>
             <div className="icon-wrapper">
               <a href="https://wa.me/+5218110821316" className="anchor-icon"><FontAwesomeIcon icon={['fab', 'whatsapp']} /></a>

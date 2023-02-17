@@ -12,7 +12,7 @@ const Home = () => {
         <div className="col-lg-10">
           <Title id="nosotros" level="2" class="text-uppercase" content="CIRAT R.P.B.I." />
           <TwoColumns />
-          <Title lid="permisos" evel="2" class="text-uppercase" content="Autorizaciones" />
+          <Title id="permisos" evel="2" class="text-uppercase" content="Autorizaciones" />
           <ThreeColumns content={{
             column1: {
               keyIcon: 0,

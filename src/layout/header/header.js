@@ -50,7 +50,7 @@ const Header = () => {
         <Container>
           <div className="row justify-content-lg-center">
             <div className="col-lg-10 nav-wrapper">
-              <a href="#home">
+              <a href="/home">
                 <Brand style={{ width: '170' }} />
               </a>
               <Menu />

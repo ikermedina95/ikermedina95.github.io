@@ -4,7 +4,7 @@ import Title from "../base/title/title";
 const Information = props => {
   return (
     <div id={props.id} className="bg-light py-4 information">
-      <div class="container-fluid container-lg">
+      <div className="container-fluid container-lg">
         <div className="row">
           {
             <div className="col-12 col-lg-3 offset-lg-1">
@@ -13,9 +13,9 @@ const Information = props => {
           }
           {
             <div className="col-12 col-lg-7 button-icon-wrapper">
-              <ButtonIcon fontIcon={["fas", "phone"]} text="Teléfono" />
-              <ButtonIcon fontIcon={["fab", "instagram"]} text="Instagram" />
-              <ButtonIcon fontIcon={["fab", "whatsapp"]} text="WhatsApp" />
+              <ButtonIcon fontIcon={["fas", "phone"]} text="Teléfono" href="https://wa.me/+5218110821316" />
+              <ButtonIcon fontIcon={["fab", "instagram"]} text="Instagram" href="https://www.instagram.com/ciratrpbi/" />
+              <ButtonIcon fontIcon={["fab", "whatsapp"]} text="WhatsApp" href="tel:8110821316" />
             </div>
           }
         </div>
