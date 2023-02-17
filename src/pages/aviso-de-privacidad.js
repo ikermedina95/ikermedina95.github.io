@@ -5,7 +5,7 @@ const AvisoDePrivacidad = () => {
     <Container>
       <div className="row justify-content-lg-center">
         <div className="col-12 col-lg-11">
-          <h1 className="h2 text-center">AVISO DE PRIVACIDAD</h1>
+          <h1 id="aviso-de-privacidad" className="h2 text-center">AVISO DE PRIVACIDAD</h1>
           <p className="text-end my-3">Última actualización: 16/02/2023</p>
           <p>CIA INNOVACIÓN, RECOLECCIÓN, ACOPIO Y TRATAMIENTO DE RESIDUOS, S.A. DE C.V., mejor conocido como
             CIRAT, con domicilio en calle QUINTA AVENIDA 304, colonia PARQUE INDUSTRIAL ESCOBEDO, ciudad

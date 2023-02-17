@@ -1,4 +1,4 @@
-import { Routes, Route, HashRouter }  from 'react-router-dom';
+import { Routes, Route }  from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import "./utils/scss/base.scss";
 import Header from './layout/header/header';
@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/aviso-de-privacidad" element={<AvisoDePrivacidad />} />
-        <Route path="*" element={<Page404 />} />
+        <Route path="/*" element={<Page404 />} />
       </Routes>
       <Information id="contacto"/>
       <Footer />

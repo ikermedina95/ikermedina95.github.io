@@ -5,6 +5,7 @@ const Banner = () => {
   const bannerClass = 'banner'
   return (
     <div className={bannerClass}>
+      <h1 className="visually-hidden" >CIRAT RBPI Monterrey</h1>
       <Video 
         url={ bannerVideo } 
         controls = { true } 

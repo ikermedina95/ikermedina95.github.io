@@ -1,8 +1,8 @@
 {
   "menu": [
-    {"id": 1, "name":"Nosotros", "link": "#nosotros"},
-    {"id": 2, "name":"Permisos", "link": "#permisos"},
-    {"id": 3, "name":"Clientes", "link": "#clientes"},
-    {"id": 4, "name":"Contacto", "link": "#contacto"}
+    {"id": 1, "name":"Nosotros", "link": "/#nosotros"},
+    {"id": 2, "name":"Permisos", "link": "/#permisos"},
+    {"id": 3, "name":"Clientes", "link": "/#clientes"},
+    {"id": 4, "name":"Contacto", "link": "/#contacto"}
   ]
 }
