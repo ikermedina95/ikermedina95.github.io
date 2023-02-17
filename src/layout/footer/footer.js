@@ -12,7 +12,7 @@ const Footer = () => {
             <p className="mb-3 mb-lg-5">Teléfono: <a href='tel:8110821316'>81-10-82-13-16</a></p>
             <p className="mb-3 mb-lg-5">Encuéntranos en <a href='/#'>Maps!</a></p>
           </div>
-          <div className="col-12 col-lg-4 offset-1 d-lg-flex justify-content-lg-start footer-col-2">
+          <div className="col-12 col-lg-4 offset-1 d-lg-flex justify-content-lg-start footer-col-2 second">
             <Link to='/aviso-de-privacidad#aviso-de-privacidad' className="footer-menu mb-3 mb-lg-5">Aviso de Privacidad</Link>
             <a href='/#b' className="footer-menu mb-3 mb-lg-10">Términos y Condiciones</a>
             <div className="icon-wrapper">
