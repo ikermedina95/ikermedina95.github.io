@@ -19,7 +19,6 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/home" element={<Home />} />
         <Route exact path="/aviso-de-privacidad" element={<AvisoDePrivacidad />} />
         <Route path="/*" element={<Page404 />} />
       </Routes>
