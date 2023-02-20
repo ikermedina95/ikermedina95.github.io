@@ -13,9 +13,9 @@ const Information = props => {
           }
           {
             <div className="col-12 col-lg-7 button-icon-wrapper">
-              <ButtonIcon fontIcon={["fas", "phone"]} text="Teléfono" href="https://wa.me/+5218110821316" />
+              <ButtonIcon fontIcon={["fas", "envelope"]} text="Correo" href="mailto:cirat.innovacion@gmail.com" />
               <ButtonIcon fontIcon={["fab", "instagram"]} text="Instagram" href="https://www.instagram.com/ciratrpbi/" />
-              <ButtonIcon fontIcon={["fab", "whatsapp"]} text="WhatsApp" href="tel:8110821316" />
+              <ButtonIcon fontIcon={["fab", "whatsapp"]} text="WhatsApp" href="https://wa.me/+5218110821316" />
             </div>
           }
         </div>

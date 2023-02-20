@@ -6,12 +6,12 @@ import Home from './pages/home';
 import Page404 from './pages/page-404';
 import Information from './components/Information/information';
 import Footer from './layout/footer/footer';
-import { faCirclePlay, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faCirclePlay, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import AvisoDePrivacidad from './pages/aviso-de-privacidad';
 
-library.add(faPhone, faInstagram, faWhatsapp, faCirclePlay);
+library.add(faPhone, faInstagram, faWhatsapp, faCirclePlay, faEnvelope);
 
 function App() {
   return (
