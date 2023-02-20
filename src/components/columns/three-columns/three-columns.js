@@ -5,7 +5,7 @@ import Text from "../../base/text/text";
 const ThreeColumns = props => {
 
   return (
-    <div id={ props.id } className="row">
+    <div id={ props.id } className={`row ${props.class}`}>
       {Object.values(props.content).map((column, index) => (
         <div key={index} className="col-12 col-lg-4">
           <div className="text-center mt-2 my-lg-3 mb-lg-0" ><Icons key={column.keyIcon} content={column.icon} width={column.width} /></div>

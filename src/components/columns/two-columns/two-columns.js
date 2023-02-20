@@ -4,9 +4,9 @@ import imageBg from "../../../assets/image/cirat-trash.png";
 
 const TwoColumns = props => {
   return (
-    <div id={ props.id } className="row">
+    <div id={ props.id } className="row mb-4 mb-lg-10">
       <div className="col-12 col-lg-6 mb-4 mb-lg-0">
-        <div className="bg-primary box py-4 px-lg-5">
+        <div className="bg-primary box py-4 px-2 px-lg-5">
           <p className="h3 text-white font-titiliumWeb fw-normal text-center text-lg-start">
             Agregando <span className="custom-transform">Valor <br />
             Con Asesoría <br />

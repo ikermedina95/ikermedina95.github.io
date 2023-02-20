@@ -44,6 +44,16 @@ body {
   word-wrap: normal;
 }
 
+
+.full-width {
+  position: relative;
+  width: 100vw;
+  left: -50vw;
+  right: -50vw;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
 @import "../../components/banner/banner.scss";
 @import "../../components/base/title/title.scss";
 @import "../../components/base/buttons/button/button";
