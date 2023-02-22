@@ -18,8 +18,8 @@ const Home = () => {
               class="bg-light pb-4 pb-lg-10"
               titleLevel="2" 
               titleClass="mt-lg-10"
-              titleContent="¿Qué es R.P.B.I?" 
-              textContent="<p>Son aquellos materiales generados durante los servicios de atención médica que contengan agentes biológico-infecciosos según son definidos en esta Norma (NOM-087), y que puedan causar efectos nocivos a la salud y al ambiente.</p>"/>
+              titleContent="Nuestra misión" 
+              textContent="<p>Buscamos apoyar a nuestros clientes con: Asesoría, Recolección, Acopio y Destino Final en el manejo de los RPBI (Residuos Peligrosos Biologico-Infecciosos) asegurando el apego a las Normas ambientales que rigen el Cuidado de la Salud y Medioambiente.</p>"/>
             <Title id="permisos" evel="2" class="text-uppercase" content="Autorizaciones" />
             <ThreeColumns 
               class=" mb-4 mb-lg-10"
@@ -53,10 +53,8 @@ const Home = () => {
               class="bg-primary pb-4 pb-lg-10"
               titleLevel="2" 
               titleClass="mt-lg-10 text-white"
-              titleContent="NOM-087-ECOL-SSA1-2002" 
-              textContent="<p class='text-white'>La presente <a class='text-decoration-underline text-white' href='http://www.salud.gob.mx/unidades/cdi/nom/087ecolssa.html'>Norma Oficial Mexicana</a> establece la clasificación de los residuos peligrosos biológico-infecciosos así como las especificaciones para su manejo.</p>
-              <p class='text-white'>Esta Norma Oficial Mexicana es de observancia obligatoria para los establecimientos que generen residuos peligrosos biológico-infecciosos y los prestadores de servicios
-              a terceros que tengan relación directa con los mismos.</p>"
+              titleContent="CIRAT y Medioambiente" 
+              textContent="<p class='text-white'>En Cirat nos apegamos a las Normas Ambientales <a class='text-decoration-underline text-white' href='http://www.salud.gob.mx/unidades/cdi/nom/087ecolssa.html'>(NOM-087-ECOL-SSA1-2002)</a> que rigen el Cuidado a la Salud y Medioambiente. Así como para disminuir los riesgos de exposición de los RPBI con el Personal encargado de las Unidades Médicas.</p>"
             />
             <Title id="clientes" level="2" class="text-uppercase" content="Rangos de Generadores" />
             <ThreeColumns content={{

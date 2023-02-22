@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
           <div className="col-12 col-lg-4 offset-1 d-lg-flex justify-content-lg-start footer-col-2 second">
             <Link to='/aviso-de-privacidad#aviso-de-privacidad' className="footer-menu mb-3 mb-lg-5">Aviso de Privacidad</Link>
-            <a href='/#b' className="footer-menu mb-3 mb-lg-10">Términos y Condiciones</a>
+            <Link to='/terminos-y-condiciones#terminos-y-condiciones' className="footer-menu mb-3 mb-lg-10">Términos y Condiciones</Link>
             <div className="icon-wrapper">
               <a href="https://wa.me/+5218110821316" className="anchor-icon"><FontAwesomeIcon icon={['fab', 'whatsapp']} /></a>
               <a href="https://www.instagram.com/ciratrpbi/" className="anchor-icon"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>

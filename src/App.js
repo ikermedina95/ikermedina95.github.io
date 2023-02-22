@@ -10,6 +10,7 @@ import { faCirclePlay, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-i
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import AvisoDePrivacidad from './pages/aviso-de-privacidad';
+import TerminosYCondiciones from './pages/terminos-y-condiciones';
 
 library.add(faPhone, faInstagram, faWhatsapp, faCirclePlay, faEnvelope);
 
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/aviso-de-privacidad" element={<AvisoDePrivacidad />} />
+        <Route exact path="/terminos-y-condiciones" element={<TerminosYCondiciones />} />
         <Route path="/*" element={<Page404 />} />
       </Routes>
       <Information id="contacto"/>
